@@ -95,7 +95,7 @@ The main datasets reused or extended in this project include:
 Additional datasets and processing procedures introduced during the 2025 internship are documented separately in the relevant processing folders.
 
 
-## acknowledgements 
+## Acknowledgements 
 https://github.com/kraina-ai/srai
 
 
