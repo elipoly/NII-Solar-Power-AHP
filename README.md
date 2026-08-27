@@ -29,6 +29,8 @@ NII-Solar-Power-AHP/
 │   ├── techno_economic/
 │   └── socio_environmental/
 │
+├── Bivariate Morans's I/
+│
 ├── spatial_analysis/
 │
 ├── visualization/
