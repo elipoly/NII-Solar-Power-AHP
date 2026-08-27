@@ -63,11 +63,9 @@ Contains the implementation of the Analytic Hierarchy Process (AHP) and the cons
 - **Techno-economic suitability**
 - **Socio-environmental sensitivity**
 
-## Spatial Analysis
+## Moran'I - Spatial Analysis
 
 Contains spatial statistical analyses, including Moran's I, Bivariate Moran's I, and Local Indicators of Spatial Association (LISA).
-
-## Visualization
 
 
 ## Data Sources
