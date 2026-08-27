@@ -70,6 +70,36 @@ Contains spatial statistical analyses, including Moran's I, Bivariate Moran's I,
 ## Visualization
 
 
+## Data Sources
+
+Several of the original geospatial datasets and downloading procedures used in this project were inherited from the previous NII internship project (see https://github.com/Jae-Domain/Japan-GIS-Data)
+
+For original data sources and downloading scripts, see:
+
+**[Japan-GIS-Data – Jae-Domain](https://github.com/Jae-Domain/Japan-GIS-Data)**
+
+The main datasets reused or extended in this project include:
+
+- **[Solar irradiation – MLIT National Land Numerical Information](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G02-v3_0.html)** 
+- **[Slope and aspect – MLIT National Land Numerical Information](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-d.html)** 
+
+- **[Land cover – JAXA High Resolution Land Cover Dataset](https://www.eorc.jaxa.jp/ALOS/en/dataset/lulc/lulc_v2312_e.htm)** 
+
+- **[Biodiversity / Land Use – National Institute for Environmental Studies](https://www.nies.go.jp/biology/data/lu.html)** 
+
+- **[Satoyama Index – National Institute for Environmental Studies](https://www.nies.go.jp/biology/data/si.html)** 
+
+- **[Sediment risk – MLIT National Land Numerical Information](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A33-v1_4.html)**
+
+- **[Solar power plant locations – Electrical Japan](http://agora.ex.nii.ac.jp/)**
+
+
+Additional datasets and processing procedures introduced during the 2025 internship are documented separately in the relevant processing folders.
+
+
+## acknowledgements 
+https://github.com/kraina-ai/srai
+
 
 Author
 Elisabeth Viau
