@@ -5,6 +5,16 @@ The project investigates potential tensions between techno-economic suitability 
 This work builds on the previous NII internship project and its implementation of Hex2Vec / SRAI for solar power plant analysis.
 
 Repository Structure
+# NII Solar Power AHP
+
+This repository contains the code developed during the 2025 NII Internship for the spatial analysis of solar power plant (SPP) siting in Japan.
+
+The project investigates potential tensions between **techno-economic suitability** for solar power development and **socio-environmental sensitivity**. Multiple geospatial datasets are integrated into a common H3 spatial framework and combined using the Analytic Hierarchy Process (AHP). Spatial statistical methods are then used to identify and visualize potential areas of conflict.
+
+This work builds on the previous NII internship project and its implementation of Hex2Vec / SRAI for solar power plant analysis.
+
+
+```text
 NII-Solar-Power-AHP/
 │
 ├── data_processing/
@@ -30,56 +40,41 @@ NII-Solar-Power-AHP/
 ├── visualization/
 │
 └── README.md
-data_processing/
+```
+
+## Data Processing
 
 Contains notebooks used to prepare the individual spatial variables before their integration into the AHP models.
 
-Techno-economic variables
-Solar irradiation
-Slope
-Aspect
-Road accessibility/density
-Land cover
+### Techno-economic variables
 
-Socio-environmental variables
-Biodiversity / Satoyama Index
-Sediment and landslide risk
-Protected areas
-Land cover
+- Solar irradiation
+- Slope
+- Aspect
+- Road accessibility/density
+- Land cover
 
-ahp/
+### Socio-environmental variables
+
+- Biodiversity / Satoyama Index
+- Sediment and landslide risk
+- Protected areas
+- Land cover
+
+## AHP
+
 Contains the implementation of the Analytic Hierarchy Process (AHP) and the construction of the two main spatial indices:
-Techno-economic suitability
-Socio-environmental sensitivity
+
+- **Techno-economic suitability**
+- **Socio-environmental sensitivity**
+
+## Spatial Analysis
+
+Contains spatial statistical analyses, including Moran's I, Bivariate Moran's I, and Local Indicators of Spatial Association (LISA).
+
+## Visualization
 
 
-spatial_analysis/
-Contains spatial statistical analyses used to investigate relationships and spatial mismatches between solar power development, techno-economic suitability, and socio-environmental sensitivity.
-This includes analyses using Moran's I, Bivariate Moran's I, and Local Indicators of Spatial Association (LISA).
-
-visualization/
-Contains code used to produce static and interactive visualizations of the results, including interactive Folium maps.
-
-Data
-Due to the size and format of the geospatial datasets, this repository primarily contains processing and analysis code rather than the complete datasets.
-
-Main Tools
-
-The project primarily uses:
-Python
-GeoPandas
-H3
-SRAI / Hex2Vec
-PySAL / ESDA
-Folium
-Matplotlib
-QGIS
-
-Previous Work
-
-This project builds on the previous NII internship work on solar power plant detection and spatial representation learning in Japan:
-Jae-Domain/Japan-GIS-Data
-Jae-Domain/Japan-PV-Plant-Probability-Scoring
 
 Author
 Elisabeth Viau
