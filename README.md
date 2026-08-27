@@ -31,9 +31,8 @@ NII-Solar-Power-AHP/
 │
 ├── Bivariate Morans's I/
 │
-├── spatial_analysis/
 │
-├── visualization/
+├── visuals and maps/
 │
 └── README.md
 ```
